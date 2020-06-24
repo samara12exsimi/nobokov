@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/*-----------------------------MODO MOBILE-----------------------------*/
+
+.home-mobil-content{
+	width: 100%;
+	margin: auto;
+}
+
+.home-mobil-fondo{
+	width: 100%;
+	height: 92vh;
+	background-image: url(../images/images-1/home-2.jpg);
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+
+}
+
+.home-servicos-content{
+	padding: 0 15px;
+	margin-top: -51px;
+}
+
+.home-servicos-title h1{
+	color: #ffa700;
+	font-size: 33px;
+	line-height: 33px;
+	text-shadow: 2px 2px 3px black;
+	margin: 0px 0 35px;
+	text-align: center;
+}
+
+.home-servicos-content a{
+	width: 70%;
+	padding: 6px 0;
+	margin: auto;
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.green{
+	background-color: #2c7d4b;
+	line-height: 20px !important;
+}
+.fucsia{
+	background-color: #e00789;
+}
+
+.idioma-content{
+	width: 100%;
+	line-height: 40px;
+	background-color: #366ab5;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 20px;
+	position: fixed;
+	bottom: 0px;
+}
+
+.border-left{
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	border-color: white;
+}
+
+
+.icon-content{
+	width: 147px;
+    margin: 35px auto 0;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-content span{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 3px solid white;
+	text-align: center;
+	font-size: 21px;
+	line-height: 36px;
+}
+
+
+/*-----------------------------MODO MOBILE-----------------------------*/
+
+
+
+/*-----------------------------MODO DESKTOP-----------------------------*/
+
+
+.home-content{
+	width: 100%;
+	margin: auto;
+	max-width: 1024px;
+}
+
+/*-----------------------------PESTAÑAS-----------------------------*/
+
+.home-pestanas-content{
+	width: 100%;
+	max-width: 1024px;
+	margin: auto;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.pestanas{
+	width: 33%;
+	height: 150px;
+	font-size: 14px;
+	padding: 15px 43px 40px;
+	margin-bottom: 10px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.green{
+	background-color: #2c7d4b;
+}
+.fucsia{
+	background-color: #e00789;
+}
+.blue{
+	background-color: #366ab5;
+}
+
+.ir{
+	width: 40px;
+	height: 40px;
+	border: 3px solid white;
+	border-radius: 50%;	
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	text-align:center;
+	font-size: 19px;
+	z-index: 99;	
+	font-style: italic;	
+	padding-top: 3px;	
+}
+
+.pestanas a{
+	color: white;
+	text-decoration: none;
+}
+
+.plomo-bottom{
+	width: 100%;
+	height: 29px;
+	background-color: #d8d8cd;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+/*-----------------------------PESTAÑAS-----------------------------*/
+
+
+/*-----------------------------INFO WEB-----------------------------*/
+
+
+.info-content{
+	width: 100%;
+	max-width: 1024px;
+	margin: auto;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.info-item{
+	margin-top: 0px;
+	border: 2px solid #cccccc;
+	border-radius: 10px;
+}
+
+.info-left{	
+	width: 75%;
+	padding: 45px 25px;
+}
+
+.info-item h2{
+	color: #2c7d4b;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+}
+
+.info-item p{
+	text-align: justify;
+}
+
+.info-line{
+	width: 98%;
+	height: 2px;
+	display: block;
+	margin: 15px 0;
+	background-color: #cccccc;
+}
+
+.info-item strong{
+	color: #2c7d4b;
+	display: block;
+}
+
+.info-green{
+	width: 100%;
+	height: auto;
+	color: white;
+	text-align: center;
+	padding: 9px 0;
+	border-radius: 10px 10px 0 0;
+	background-color: #2c7d4b;
+}
+
+.info-right{
+	width: 24%;
+	max-width: 300px;
+	height:auto; 
+	background-color: #e7e5e6;
+}
+
+.info-item img{
+	width: 190px;
+	height: auto;
+	display: block;
+	margin: 15px auto 0;
+}
+
+.info-right p{
+    padding: 20px 10px;
+}
+
+.info-right a{
+	display: block;
+	margin: 0 auto 15px;
+	text-align: center;
+	width: 60%;
+    height: 40px;
+    background: #e00789;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all 0.3s;
+    line-height: 41px;
+    text-decoration: none;
+}
+
+.info-right a:hover{
+	  background-color:#2c7d4b;
+}
+
+
+
+
+/*-----------------------------INFO WEB-----------------------------*/
+
+/*-----------------------------MODO DESKTOP-----------------------------*/
+
+
+@media screen and (max-width: 950px){
+	.modo-desktop{
+		display: none;
+	}
+
+	footer{
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 950px){
+	.modo-mobile{
+		display: none;
+	}
+
+}
+
+
+
+/*-----------------------------Media-----------------------------*/
+
+
+
+

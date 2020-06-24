@@ -1,0 +1,74 @@
+/*-----------------------------BANNER-----------------------------*/
+.banner{
+  max-width: 1024px;
+  height: 90px;
+  margin: 15px auto;
+  -webkit-border-radius: 13px;
+  -o-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+  -webkit-box-shadow: 0px 0px 15px #888888;
+  -o-box-shadow: 0px 0px 15px #888888;
+  -moz-box-shadow: 0px 0px 15px #888888;
+  box-shadow: 0px 0px 15px #888888;
+  background-image: -webkit-linear-gradient(#dedddd,#ffffff,#dedddd);
+  background-image: -o-linear-gradient(#dedddd,#ffffff,#dedddd);
+  background-image: -moz-linear-gradient(#dedddd,#ffffff,#dedddd);
+  background-image: linear-gradient(#dedddd,#ffffff,#dedddd);
+  display: none;
+}
+
+.banner a{
+  text-decoration: none;
+}
+
+.banner img{
+  margin:14px 14px;
+}
+
+.banner-fucsia{
+  width: 365px;
+  height: 90px;
+  float: right;
+  display: flex;
+}
+
+.bnr1{
+  width: 350px;
+    height: 0px;
+    float: right;
+    border-right: 0px solid transparent;
+    border-left: 35px solid transparent;
+    border-top: 90px solid #e00789;
+    }
+.bnr2{
+  width:15px;
+  height: 90px;
+  background: #e00789;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+  }
+.bnr1 p{
+  margin-top: -79px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.1;
+}
+.bnr1 p span{
+  font-size: 21px;
+  font-weight: 600;
+}
+.bnr1 p strong{
+  font-weight: 100;
+  text-decoration: underline;
+}
+/*-----------------------------BANNER-----------------------------*/
+
+
+@media screen and (min-width: 1024px){
+    .banner{
+      display: block;
+    }
+
+}

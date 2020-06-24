@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/*BARRA SUPERIOR DESKTOP*/
+.menu-barra-content{
+	width: 1024px;
+	height: 117px;
+	margin: auto;
+	background-image: url(../images/lineas-top.png);
+	margin-bottom: 11px;
+}
+
+.menu-barra-datos{
+	max-width: 1024px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-barra-datos a{
+	text-decoration: none;
+}
+
+.logos-header{
+	width: 40%;
+	height: auto;
+	padding-top: 14px;
+}
+
+.logo{
+	width: 191px;
+	height: 113px;
+}
+
+.aniversary{
+	width: 118px;
+	height: 110px;
+	margin-left: 60px;
+}
+
+.toll-free-content{
+	width: 433px;
+	margin-top: 30px;
+}
+
+.toll-free{
+	text-align: center;
+	font-size: 15px;
+}
+
+.toll-free h4{
+	font-size: 19px;
+	display: inline;
+	margin-right: 9px;
+}
+
+.toll-free img{
+	width: 115px;
+	height: 44px;
+	padding-right: 20px; 
+}
+
+.boletin-content{
+	width: 199px;
+	display: flex;
+	justify-content: space-between;
+	float: right;
+}
+
+.boletin-content a{
+	color: #e00789;
+	text-decoration: none;
+	font-weight: 600;
+	padding-top: 31px;  
+	text-align:center;
+	line-height: 17px;
+}
+
+.boletin-content a span{
+	text-decoration: underline;
+}
+
+.boletin-content img{
+	width: 30px;
+	height: auto;
+	margin-left: 9px;
+	padding-top:31px;
+}
+
+.menu-fucsia{
+	padding: 0 8px;
+    background-color: #e00789;
+    border-top-right-radius: 13px;
+    border-left: none;
+}
+
+.border-none{
+	padding: 0 2.9px;
+	border-top-left-radius: 13px;
+}
+
+.fa-leaf{
+	margin-left: 1px;
+}
+
+.vertical-line{
+	width: 1px;
+	height: 25px;
+	margin-top: 9px;
+	float: left;
+	background-color: white;
+}
+
+.nav li a span {
+    margin-left: 15px;
+}
+
+.menu_bar {
+	display:none;
+}
+
+
+/*BARRA SUPERIOR DESKTOP*/
+
+
+header {
+	max-width: 1024px;
+	height: auto;
+	margin: auto;
+	background:#2c7d4b;
+	margin-bottom: 0px;
+	border-radius: 13px 13px 0 0;
+}
+ 
+
+.nav{
+	/*margin-top: 7px;*/
+	display: flex;
+	justify-content: space-between;
+}
+
+
+ul{
+	z-index: 99999;
+	list-style:none;
+}
+
+.nav li a {
+	color:white;
+	display:block;
+	text-decoration:none;
+	padding: 9px 19.7px;
+	font-size: 14px;
+	text-transform: uppercase;
+	}
+
+/*.nav li ul li a {
+	padding: 11px 14.7px;
+	}*/
+
+.nav li:hover {
+	background-color:#434343;
+}
+
+.nav li ul {
+	display:none;
+	position:absolute;
+}
+
+.nav li:hover > ul {
+	display:block;
+}
+ 
+.nav li ul li {
+	position:relative;
+	background-color:#2c7d4b;
+}
+
+.nav li ul li a {
+    border-width: 0 1px 1px 1px;
+    border-color: #00CC33;
+    border-style: solid;
+}
+
+.border-top {
+    border-top: 1px solid #00CC33;
+}
+ 
+.circuitos-1{
+	right:-198px;
+	top:0px;
+}
+.circuitos-2{
+	right:-505px;
+	top:0px;
+}
+.circuitos-3{
+	right:-416px;
+	top:0px;
+}
+
+.otros-paises{
+	right:-215px;
+	top:0px;
+}
+
+.fa-chevron-right{
+	float: right;
+	padding-top: 3px;
+}
+
+.menu-mobil{
+	display: none;
+}
+
+@media screen and (max-width: 950px) {
+
+	header{
+		margin-bottom: 50px;
+	}
+
+	.nav{
+		/*margin-top: 7px;*/
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.menu-barra-content{
+		display: none;
+	}
+
+	.menu_bar {
+		display:block;
+		width:100%;
+		height: 50px;
+		position: fixed;
+		top:0;
+		background:#2c7d4b;
+		display: flex;
+		justify-content: space-between;
+		padding: 0 15px;
+		color: white;
+		z-index: 999;
+	}
+
+	.api-wp{
+		color: white;
+		margin: 9px 0 0 18px;
+	}
+
+	.logo_trip_movil{
+		width: 50px;
+		margin: 6px 0 0 11px;
+	}
+
+	.logo_trip_movil img{
+		width: 100%;
+	}
+
+	.menu_bar div{
+		display: flex;
+	}
+
+	.menu_bar .bt-menu {
+		display: block;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	.aniversary-mobil{
+		width: 70px;
+		height: 45px;	
+		padding-top: 4px;
+	}
+
+	.logo-mobil{
+		width: 170px;
+		height: auto;
+		padding-top: 4px;
+	}
+ 
+	.menu_bar span {
+		font-size: 35px;
+		/*padding-top: 7px;*/
+	}
+ 
+	header nav {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		right:100%;
+		/*margin: 71px 0 0 0;*/
+		/*overflow: scroll;*/
+		background: #1f1f1f;
+		z-index: 999;
+	}
+
+	header nav ul{
+		padding: 0 45px;
+	}
+ 
+	header nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+ 
+	
+	.nav li a {
+		display: block;
+		color:white;
+		text-decoration:none;
+		padding: 14px 23px;
+		font-size: 14px;
+		font-weight: 600;
+	}
+ 
+ 	.menu-desktop{
+		display: none;
+	}
+
+	.menu-mobil{
+		display: block;
+	}
+
+	.vertical-line{
+		display: none;
+	}
+
+	.nav li:hover {
+		background-color:#1f1f1f;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.nav li a {
+		padding: 9px 25px;
+	}
+
+}
+
+
+
+/*----------------------------------FOOTER----------------------------------*/
+footer{
+  width: 100%;
+  margin-top: 60px;
+}
+
+.footer-content{
+  max-width: 900px;
+  margin: auto;
+  padding: 0px 15px 30px;
+}
+
+.footer-item{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin:auto;
+}
+
+.footer-item img{
+  margin: 0 4px;
+}
+
+.logos-asociados{
+	margin: 25px auto;
+}
+
+.jf1, .jf2{
+  margin-top:5px;
+}
+
+.footer-item p{
+  text-align: center;
+  color: #444242;  
+  font-size: 15px; 
+}
+
+.footer-item b{
+  font-size: 15px; 
+}
+
+.footer-item p a{
+  color: blue;
+  text-decoration: none;
+}
+
+.footer-redes-social{
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  padding: 0 25px;
+}
+
+.footer-icon-content{
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  font-size: 23px;
+  justify-content: space-between;
+}
+
+.footer-icon-content a{
+  color: white;
+  text-decoration: none;
+  line-height: 69px;
+}
+
+.footer-icon-content p{
+  color: white;
+  line-height: 69px;
+}
+
+.link-destinos{
+  display: none;
+  text-align: center;
+}
+
+.link-destinos a{
+  color: #2c7d4b;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.link-destinos span{
+  color: #2c7d4b;
+}
+
+.link-destinos p a{
+  color: #2c7d4b;
+  font-size: 15px;
+}
+
+
+@media screen and (min-width: 480px){
+  .logos-asociados{
+    width: 70%;
+    margin: 25px auto;
+  	}
+
+  .aniversary-mobil{
+	margin-left: 7px;
+	}
+
+}
+
+@media screen and (min-width: 758px){
+
+	.link-destinos{
+		display: block;
+	}
+
+	.link-destinos b a{
+		padding: 10px 15px;;
+	}
+
+	.link-destinos p{
+		margin-bottom: 15px;
+	}
+/*-----------------------------FOOTER-----------------------------*/
+}
+

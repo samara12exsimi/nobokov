@@ -1,0 +1,44 @@
+$(document).ready(main);
+ 
+var contador = 1;
+ 
+function main () {
+	$('#button-menu').click(function(){
+		if (contador == 1) {
+			$('nav').animate({
+				left: '0'
+			});
+			contador = 0;
+		} else {
+			contador = 1;
+			$('nav').animate({
+				left: '-100%'
+			});
+		}
+	});
+ 
+// Mostramos y ocultamos submenus
+	$('.submenu').click(function(){
+		$(this).children('.children').slideToggle();
+	});
+}
+
+$(document).ready(function(){
+
+	// MOSTRANDO Y OCULTANDO MENU
+	$('#button-menu').click(function(){
+		if($('#button-menu').attr('class') == 'fa-bars' ){
+
+			$('#button-menu').removeClass('fa-bars').addClass('fa-times'); // Agregamos el icono X
+
+		} else{
+
+			$('#button-menu').removeClass('fa-times').addClass('fa-bars'); // Agregamos el icono del Menu
+		}
+	});	
+
+});
+
+
+//STAFF
+
